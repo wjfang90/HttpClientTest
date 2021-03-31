@@ -1,0 +1,9 @@
+{ "delete":{ "_index": "test",    "_type": "test",    "_id": "111" }}
+{ "delete":{ "_index": "test",    "_type": "test",    "_id": "222" }}
+{ "index": {    "_index": "test",    "_type": "test",    "_id": "111"  }}
+{ "Gid": "111",  "Title": "test bulk value"}
+{ "index": {    "_index": "test",    "_type": "test",    "_id": "222"  }}
+{ "Gid": "222",  "Title": "test bulk value"}
+{ "update": {    "_index": "test",    "_type": "test",    "_id": "222"  }}
+{ "doc":{ "Gid": "222",  "Title": "test update after bulk value"}}
+
